@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #%%
-filename = r"\\wsl.localhost\Ubuntu-22.04\home\yumh\HOS-Ocean\run\R3\Results\3d.dat"
+filename = r"\Results\3d.dat"
 
 # counting time steps
 time_steps = 0
@@ -120,6 +120,6 @@ ax.set_ylabel('Y-axis')
 ax.set_ylim(0, 2)
 ax.set_zlabel('Z-axis')
 ax.set_zlim(np.min(eta), np.max(eta))
-ax.set_title('3D Surface with 2D Contour Projections')
+# ax.set_title('3D Surface with 2D Contour Projections')
 
 plt.show()
